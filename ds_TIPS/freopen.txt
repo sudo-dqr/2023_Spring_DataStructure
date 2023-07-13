@@ -1,0 +1,7 @@
+FILE * freopen(const char * filename,const char * mode , FILE *stream)
+filename :要打开的文件名
+mode:文件打开的模式 ：w,r等
+stream,文件指针，通常为 stdin,stdout,stderr
+重定向标准输入输出
+freopen("data.in","r",stdin) 从文件中读入
+freopen("data.out","w".stdout)输出到文件中

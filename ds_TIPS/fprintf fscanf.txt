@@ -1,0 +1,5 @@
+FILE * fp =fopen("data.c","r");
+fscanf(fp,"%d",&a) ;
+
+FILE * fp =fopen("data.c","w");
+fprintf(fp,"%d",a);
